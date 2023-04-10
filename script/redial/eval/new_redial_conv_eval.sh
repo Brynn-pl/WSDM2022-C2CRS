@@ -1,4 +1,4 @@
-CUDA_VISIBLE_DEVICES=1 /kaggle/working/WSDM2022-C2CRS/python run_crslab.py \
+CUDA_VISIBLE_DEVICES=1 python WSDM2022-C2CRS/run_crslab.py \
     -c config/crs/c2crs/redial.yaml \
     -g 0 \
     -ss  \
